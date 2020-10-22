@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap%27');
+
+    * {
+        margin: 0;
+        font-family: 'Playfair Display', serif;
+    }
+    body {
+        background-color: pink;
+    }
+
+    .all-blogs-wrapper {
+        padding-top: 70px;
+        width: 57vw;
+        margin: auto;
+    }
+
+    .topnav {
+        position: fixed;
+        background-color: #ffffff;
+        overflow: hidden;
+        width: 100%;
+        z-index: 9999;
+      }
+      
+      .topnav a {
+        float: left;
+        color: #ff82c5;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+      }
+      
+      .topnav a:hover {
+        background-color: #ff82c5;
+        color: #FFFFFF;
+      }
+      
+    .blog-card-wrapper {
+        margin-bottom: 40px;
+        border: transparent;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        -webkit-box-shadow: 5px 4px 8px 1px rgba(0, 0, 0, 0.10);
+        -moz-box-shadow: 5px 4px 8px 1px rgba(0, 0, 0, 0.10);
+        box-shadow: 5px 4px 8px 1px rgba(0, 0, 0, 0.10);
+    }
+
+    .image-wrapper {
+        width: 100%;
+        height: 310px;
+        overflow: hidden;
+        position: sticky;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .blog-image {
+        width: 100%;
+    }
+
+    .blog-content {
+        margin: 20px;
+    }
+
+    .information-heading {
+        width: 100%;
+        height: 40px;
+    }
+
+    .date {
+        float: left;
+    }
+
+    .subject {
+        float: right;
+    }
+
+    .blog-heading {
+        padding-bottom: 30px;
+    }
+
+    .blog-details {
+        padding-bottom: 30px;
+    }
+
+
